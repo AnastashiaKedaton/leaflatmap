@@ -1,0 +1,7 @@
+{
+  "name": "leaflatmap",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

@@ -131,8 +131,7 @@ this.locations.forEach(location => {
     icon: this.markerIcon
   })
     .addTo(this.map)
-    .bindPopup(location.name);
-
+    .bindPopup(`<b>${location.name}</b><br>${location.buka}<br>Phone: ${location.phone}`);
   markers.push(marker);
 });
 

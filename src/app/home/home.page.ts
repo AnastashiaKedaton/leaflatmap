@@ -4,6 +4,8 @@ import * as L from 'leaflet';
 interface Location {
   coords: [number, number]; // Explicitly define as tuple type
   name: string;
+  buka: string;
+  phone: string;
 }
 
 @Component({
@@ -18,31 +20,45 @@ export class HomePage {
   locations: Location[] = [
     {
       coords: [106.730481481902, -6.1226180490744],
-      name: "Happy Puppy Taman Palem"
+      name: "Happy Puppy Taman Palem",
+      buka: "Open from 12.00pm to 02.00am",
+      phone: "2154356258"
     },
     {
       coords: [106.760007238154, -6.15265727071443],
-      name: "Happy Puppy Green Garden"
+      name: "Happy Puppy Green Garden",
+      buka: "Open from 11.00am to 02.00am",
+      phone: "215816606"
     },
     {
       coords: [106.761380529143, -6.10759780419197],
-      name: "Happy Puppy Pantai Indah Kapuk"
+      name: "Happy Puppy Pantai Indah Kapuk",
+      buka: "Open from 03.00pm to 01.00am",
+      phone: "2130010280"
     },
     {
       coords: [106.832105015049, -6.13900328901989],
-      name: "Happy Puppy Grand Kartini"
+      name: "Happy Puppy Grand Kartini",
+      buka: "Open from 12.00pm to 02.00am",
+      phone: "085176850083"
     },
     {
       coords: [106.781293248476, -6.20249132159564],
-      name: "Happy Puppy Permata Hijau"
+      name: "Happy Puppy Permata Hijau",
+      buka: "Open from 12.00pm to 02.00am",
+      phone: "2153663811"
     },
     {
       coords: [106.797086094843, -6.26119388363819],
-      name: "Happy Puppy Plaza Golden Fatmawati"
+      name: "Happy Puppy Plaza Golden Fatmawati",
+      buka: "Open from 12.00pm to 02.00am",
+      phone: "217507520"
     },
     {
       coords: [106.744901037281, -6.26187643288048],
-      name: "Happy Puppy Bintaro Marcella"
+      name: "Happy Puppy Bintaro Marcella",
+      buka: "Open from 11.30am to 02.00am",
+      phone: "083871995200"
     }
   ];
 
